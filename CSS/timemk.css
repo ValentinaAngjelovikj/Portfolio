@@ -1,0 +1,186 @@
+.Main{background-color: #161b22;
+    width: 100%;
+    max-width: 1000px;
+    margin: 0, auto;
+    padding: 10px;
+    
+
+}
+a{color: lightblue;
+
+}
+
+body{background-color: #161b22;
+    color: c8d1d9;
+   
+
+}
+
+ul{ margin: 0;}
+
+
+
+
+
+.contentLeft{
+    float: left;
+    width: 65%;
+
+
+}
+
+.contentRight{
+    float: right;
+    width: 35%;
+
+
+}
+
+.Clear{ clear:both}
+
+.LinksLeft{float: left;
+
+}
+
+.LinksRight{float: right;
+
+}
+
+
+.LinksRight ul li{ 
+display:inline-block;
+margin-left: 10px;
+border-right: 1px solid white;
+padding-right: 10px;
+}
+.Clear{ clear:both}
+
+.HederTop .HederMIddle {margin-bottom: 15px;
+
+
+}
+
+.HederMiddle .LogoLeft,
+.HederMiddle .LogoCenter,
+.HederMIddle .LogoRight{
+
+    float: left;
+    width: 33.33%;
+
+}
+
+.HederMiddle .LogoRight{
+    text-align: right;
+  
+}
+
+.HederMiddle .LogoCenter{
+    text-align: center;
+
+}
+
+.HederMiddle .LogoLeft img{
+    width: 100%;
+    max-width: 200px;
+
+}
+
+.HederMIddle .LogoCenter h1{
+    line-height: 26px;
+
+    
+}
+
+
+.HederMiddle .LogoRight input{
+    background-color: #161b22;
+    border-radius: 3px;
+    border: 1px solid white ;
+    
+
+
+}
+
+.Searchfield{
+    position: relative;
+}
+
+.Searchfield i{
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    color: gray;
+    cursor: pointer;
+}
+
+.contentLeft .image{
+    float: left;
+    width: calc(20% - 10px);
+    margin-right: 10px;
+}
+
+.contentLeft .tekst{
+    float: left;
+    width: 80%;
+}
+
+.contentRight .Slika{
+    float: right;
+    margin-top: 30px;
+    width: 70%;
+}
+
+.contentLeft .image2{
+    float: left;
+    width: calc(20% - 10px);
+    margin-right: 10px;
+}
+
+.contentLeft .tekst2{
+    float: left;
+    width: 80%;
+}
+
+
+
+.Levo {float: left;
+    margin-right: 50px;
+
+
+}
+
+
+
+
+.Desno {float: right;
+    
+    
+}
+.Levo a{border: 1px solid gray;
+
+}
+
+.Desno a{border: 1px solid gray;}
+
+.LastLinks ul li{
+    display: inline-block;
+    border: 1px solid gray;
+    padding: 8px;
+    text-align: center;
+    background-color: #6b90da ;
+  
+       
+    }
+@media screen and (max-width: 900px){
+    .image2{
+        width: calc(100% - 10px);}
+    .tekst2{
+        width: calc(100% - 80%);
+    }
+    .LastLinks ul li{
+        display: block;
+    }
+
+
+
+    }

@@ -1,0 +1,34 @@
+body{background-color: #ff0000;
+/* color: white; background-image: url(../Img/lama.jpg); */
+/* background-repeat: no-repeat;
+background-position:center; */
+}
+
+p{background-color: #ffffff;
+color: black;
+
+}
+
+a{color: orange;
+}
+
+.ZelenaPozadina ul{
+    border: 2px solid yellow;
+    border-radius: 1px 5px 10px 20px;
+
+
+}
+
+.ZelenaPozadina {border-bottom: 1px solid white;
+
+    
+}
+
+.Box{background-color: black;
+    border: 2px solid yellow;
+    width: 100px;
+    /* height: 200px; */
+    color: white;
+    padding: 10px 0 20px 5px;
+
+}
